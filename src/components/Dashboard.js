@@ -7,6 +7,8 @@ import {
   Notification,
   Image,
 } from "react-bulma-components";
+import Menu from "./Menu";
+
 const pathToOwl = "https://cdn-icons-png.flaticon.com/512/1864/1864652.png";
 
 const altText = "Glowie is the mascot of Athnos Dashboard!";
@@ -42,7 +44,7 @@ const Dashboard = () => {
       <Columns>
         <Columns.Column size={"one-quarter"}>
           <Container>
-            <h1>Hello Baby Dashboard!</h1>
+            <Menu></Menu>
           </Container>
         </Columns.Column>
         <Columns.Column size={"three-quarters"}>
