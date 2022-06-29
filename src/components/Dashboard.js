@@ -49,7 +49,9 @@ const Dashboard = () => {
         </Columns.Column>
         <Columns.Column size={"three-quarters"}>
           <Container>
-            <h1>Content area incoming...</h1>
+            <Notification color={"secondary"}>
+              Content area incoming...
+            </Notification>
           </Container>
         </Columns.Column>
       </Columns>
