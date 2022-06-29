@@ -4,11 +4,7 @@ import { Container, Content, Heading, Hero } from "react-bulma-components";
 const Introduction = () => {
   return (
     <Hero color={"info"} size={"small"}>
-      <Hero.Header>
-        <Content>
-          <h3 id="top-banner">Athnos Dashboard Utility</h3>
-        </Content>
-      </Hero.Header>
+      <Hero.Header textSize={5}>Athnos Dashboard Utility</Hero.Header>
       <Hero.Body>
         <Container>
           <Heading>Introduction</Heading>
