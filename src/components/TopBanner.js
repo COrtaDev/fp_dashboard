@@ -4,9 +4,9 @@ import Introduction from "./Introduction";
 import Global from "./Global";
 
 /*
-  Top banner is essentially everything above the dashboard proper. It has
+  <TopBanner/> is essentially everything above the dashboard proper. It has
   tabs that cycle through the relevant sections of the project and gives
-  a discription of what each is/will be
+  a discription of what each is/will be.
 */
 const TopBanner = () => {
   const [activeTab, setActiveTab] = useState("intro");
