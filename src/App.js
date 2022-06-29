@@ -4,7 +4,7 @@ import Dashboard from "./components/Dashboard";
 import TopBanner from "./components/TopBanner";
 import "./styles/styles.css";
 
-function App() {
+const App = () => {
   return (
     <>
       <Columns>
@@ -23,6 +23,6 @@ function App() {
       </Columns>
     </>
   );
-}
+};
 
 export default App;
