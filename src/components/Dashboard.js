@@ -9,9 +9,12 @@ import {
 } from "react-bulma-components";
 import Menu from "./Menu";
 
-const pathToOwl = "https://cdn-icons-png.flaticon.com/512/1864/1864652.png";
-
-const altText = "Glowie is the mascot of Athnos Dashboard!";
+/*
+  <Dashboard /> is the dashboard in it's entirty. It is composed of several
+  sub-components with more to come as development continues. All sub-components
+  of the dashboard proper meet here and are arranged in the necessary way as
+  to allow for flexibility and modularity above this layer.
+*/
 
 const Dashboard = () => {
   return (
@@ -64,5 +67,6 @@ const Dashboard = () => {
     </Columns>
   );
 };
-
+const pathToOwl = "https://cdn-icons-png.flaticon.com/512/1864/1864652.png";
+const altText = "Glowie is the mascot of Athnos Dashboard!";
 export default Dashboard;

@@ -4,6 +4,11 @@ import Dashboard from "./components/Dashboard";
 import TopBanner from "./components/TopBanner";
 import "./styles/styles.css";
 
+/*
+  All major components of the site are brought here to be assembled
+  in a suitable layout before injectation in to the DOM. Not sure if
+  that is actually what it's called but yes.
+*/
 const App = () => {
   return (
     <>

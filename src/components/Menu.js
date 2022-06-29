@@ -1,5 +1,12 @@
 import React from "react";
 import { Menu as BulmaMenu } from "react-bulma-components";
+
+/*
+  <Menu /> is the vertical menu to the left of the dashboard proper. It
+  has no interactivity as of yet. We are planning to have this control what
+  is displayed in the dashboard window directly to the left of this.
+*/
+
 const Menu = () => {
   return (
     <BulmaMenu>

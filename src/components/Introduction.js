@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Content, Heading } from "react-bulma-components";
 
+// This is the content for the intro tab
+
 const Introduction = () => {
   return (
     <Container>
