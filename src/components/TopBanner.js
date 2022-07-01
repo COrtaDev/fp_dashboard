@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Box, Heading, Hero, Tabs } from "react-bulma-components";
 import Introduction from "./Introduction";
 import Global from "./Global";
-
+const sides = "1px hsl(0, 0%, 81%) solid";
 /*
   <TopBanner/> is essentially everything above the dashboard proper. It has
   tabs that cycle through the relevant sections of the project and gives
@@ -17,7 +17,7 @@ const TopBanner = () => {
   };
 
   return (
-    <Box color={"grey"}>
+    <Box style={{ border: "1px lightgrey solid" }}>
       <Heading textSize={3} mb={2}>
         Athnos Dashboard Utility
       </Heading>
@@ -26,7 +26,9 @@ const TopBanner = () => {
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         type="boxed"
-        mb={2}
+        radiusless={false}
+        mb={"0"}
+        px={1}
       >
         {tabList.map((tab) => (
           <Tab
@@ -39,7 +41,12 @@ const TopBanner = () => {
       </Tabs>
 
       <Hero color={"secondary"} size={"small"}>
-        <Hero.Body py={1}>{activeTabContent()}</Hero.Body>
+        <Box
+          paddingless={true}
+          style={{ borderBottom: sides, borderLeft: sides, borderRight: sides }}
+        >
+          <Hero.Body py={1}>{activeTabContent()}</Hero.Body>
+        </Box>
       </Hero>
     </Box>
   );
