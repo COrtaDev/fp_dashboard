@@ -1,11 +1,11 @@
-# final project for cmp-239
+# Final project for cmp-239
 
-welcome to the readme
+Welcome to the ReadMe
 
-## outline
+## Outline
 
-at this point in the project, we have a decent working setup to move forward with the project.
+The Athnos Dashboard is a project for CMP-239
 
-next step is to configure the postion of the dashboard and add the nav bar component
+The site (so far...) is build using Reactjs and Bulma-React Components
 
-lastly we'd like to have the other pages render with the nav bar
+Other steps to come are the dashboard widgets adding funtionality to the site.
