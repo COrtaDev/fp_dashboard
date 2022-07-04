@@ -20,7 +20,10 @@ const GitHub = () => {
           <Level.Item>
             <p id="main-github">
               If you would like to see my source files, please visit my repo on
-              GitHub. Thanks!
+              GitHub. <br />
+              There you will find a directory <code>src/components</code> which
+              lists the individual components I developed for use in the project
+              (so far...)
             </p>
           </Level.Item>
           <Level.Item>
@@ -29,7 +32,7 @@ const GitHub = () => {
               target={"_blank"}
               rel={"noreferrer"}
             >
-              <Button>GitHub</Button>
+              <Button>Vist the GitHub repo here</Button>
             </a>
           </Level.Item>
         </Level>

@@ -16,3 +16,9 @@ Other steps to come are the dashboard widgets adding funtionality to the site.
 Currently, the project is using the built in Bulma stylings. Custom styling will be implemented in the coming weeks.
 
 The project to this point has consisted of developing a working prototype as a proof of concept.
+
+## Notable file directories:
+
+`src/components` has the components developed so far.
+
+`src/data` has a test for rendering a line chart (not implemented currently)
