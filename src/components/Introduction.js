@@ -7,7 +7,7 @@ const Introduction = () => {
   return (
     <Container>
       <Heading>Introduction</Heading>
-      <Content>
+      <Content id={"banner"}>
         <p id="main-intro">
           Athnos Dashboard will be a utility to help business people manage
           their operations. The dashboard will analyze all the relevant data and

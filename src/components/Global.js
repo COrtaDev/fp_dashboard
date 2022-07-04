@@ -7,8 +7,8 @@ const Global = () => {
   return (
     <Container>
       <Heading>Global</Heading>
-      <Content>
-        <p id="main-intro">
+      <Content id={"banner"}>
+        <p id="main-global">
           The Global tab will allow the user to view all of the regions in their
           business at once. All of the data will be compiled and shown here. A
           decision will need be made as to what is best to show here. Judging by

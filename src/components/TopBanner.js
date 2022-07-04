@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Box, Heading, Hero, Tabs } from "react-bulma-components";
 import Introduction from "./Introduction";
 import Global from "./Global";
+import GitHub from "./GitHub";
+
 const sides = "1px hsl(0, 0%, 81%) solid";
 /*
   <TopBanner/> is essentially everything above the dashboard proper. It has
@@ -55,6 +57,7 @@ const TopBanner = () => {
 const tabList = [
   { component: <Introduction />, name: "intro", title: "Intro" },
   { component: <Global />, name: "global", title: "Global" },
+  { component: <GitHub />, name: "github", title: "GitHub" },
 ];
 
 const Tab = ({ title, name, activeTab, setActiveTab }) => {
